@@ -7,15 +7,14 @@ import requests
 from bs4 import BeautifulSoup
 BASE_URL = 'http://www.lsmvaapvs.org'
 import re
-from errors import errors
+from .errors.errors import *
 
 def parse_response(response):
     soup = BeautifulSoup(response.text,"html.parser")
     try:
         data = soup.find_all('td')
     except:
-        raise errors.InvalidPlateError
-
+        raise InvalidPlateError
 
     '''Cleaning the HTML tags from the string'''
     for i in range(0,len(data)):
