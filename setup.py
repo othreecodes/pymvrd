@@ -10,4 +10,8 @@ setup(
   download_url = 'https://github.com/othreecodes/pymvrd/tarball/0.1', 
   keywords = ['vehicle','plate number','registration'], 
   classifiers = [],
+    install_requires=[
+        'requests',
+        'bs4',
+    ],
 )
