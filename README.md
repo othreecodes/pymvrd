@@ -1,4 +1,4 @@
-# pymvrd ![https://pypi.python.org/pypi/pymvrd/0.6](https://badge.fury.io/py/pymvrd.svg)
+# pymvrd ![https://pypi.python.org/pypi/pymvrd/0.6](https://badge.fury.io/py/pymvrd.svg) ![](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)
 ## Mvrd library - Grab all the Nigerian Vehicles Data!!!
 > Mvrd Library for Python
 
